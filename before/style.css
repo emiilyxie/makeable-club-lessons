@@ -1,0 +1,42 @@
+/**
+comments use these symbols.
+in CSS, you indicate an element and put down certain
+features you want that element to have.
+e.g. color, size, location, etc.
+
+REMEMBER:
+put the semicolon at the end of each feature!!!!
+**/
+
+/** reference ids using the "#" symbol **/
+#paragraph-one {
+    font-style: italic;
+}
+
+/** reference classes using the "." symbol **/
+.red-text {
+    color: red;
+}
+
+/** 
+if you want CSS to apply to all tags of a certain type,
+you can just type the tag itself
+**/
+h2 {
+    text-decoration: underline;
+
+    border-color: royalblue;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: thistle;
+}
+
+/**
+as always, view the documentation for more features to change.
+
+suggested websites:
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://www.w3schools.com/cssref/
+**/
