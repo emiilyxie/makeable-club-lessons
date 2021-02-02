@@ -1,0 +1,13 @@
+#css-header {
+    color: rgb(117, 191, 129);
+    background-image: url("https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/news/market-trends/jellyfish-a-new-sustainable-nutritious-and-oyster-like-food-for-the-western-world/9974704-1-eng-GB/Jellyfish-A-new-sustainable-nutritious-and-oyster-like-food-for-the-Western-world_wrbm_large.jpg");
+    background-repeat: no-repeat;
+    border-color: rgb(209, 40, 199);
+    border-width: 4px;
+    border-style: double;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+}
