@@ -10,4 +10,18 @@
     font-weight: bold;
     font-style: italic;
     font-family: fantasy;
+
+    padding: 5px;
+    padding-bottom: 3px;
+
+    margin-left: 20px;
+}
+
+.blue-underline {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    color: green;
 }

@@ -1,3 +1,18 @@
+
+/* lesson 2/8/21 */
+
+#box-model-testing {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-color: red;
+    margin: 3px;
+}
+
+/* lesson 1/25/21 */
+
 /**
 comments use these symbols.
 in CSS, you indicate an element and put down certain
