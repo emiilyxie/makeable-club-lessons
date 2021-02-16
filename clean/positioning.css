@@ -1,0 +1,42 @@
+body {
+    height: 1024px;
+}
+
+.static {
+    position: static;
+    top: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+
+#jellyfish-picture {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+}
+
+#jellyfish-text {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    top: 40px;
+}

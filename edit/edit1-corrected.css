@@ -1,0 +1,20 @@
+#css-header { 
+    font-style:italic;
+    color: rgb(147,85,161);
+    background-image: url("https://www.thoughtco.com/thmb/AvVf2u-2pJZC0aQD-kUlv2ESZD4=/5120x2880/smart/filters:no_upscale()/atlantic-bottlenose-dolphin--jumping-high-during-a-dolphin-training-demonstration-154724035-59ce93949abed50011352530.jpg");
+    border-color: rgb(209, 40, 199);
+    border-width: 4px;
+    border-style: double; 
+    text-align: left; 
+    text-decoration: underline; 
+    font-weight: bold;
+    font-style: italic;
+}
+.blue-underline {
+    color: blue; 
+    text-decoration: underline; 
+}
+
+p {
+    color: green;
+}

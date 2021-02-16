@@ -1,0 +1,78 @@
+/* let's make p stand out a little more*/
+p {
+    border-width: 3px;
+    border-color: green;
+    border-style: solid;
+    font-size: 30px;
+}
+
+span {
+    margin: 30px;
+}
+
+.static {
+    position: static;
+    /* if you add tblr, it will not move*/
+    left: 50px;
+    /* will "move" with margin */
+    /* margin-left: 50px; */
+}
+
+.relative {
+    position:relative;
+    bottom: 200px;
+    left: 10px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 30px;
+}
+
+/* for testing sticky */
+body {
+    height: 1024px;
+}
+
+.sticky {
+    position: sticky;
+    /* this property may not work on every browser */
+    position: -webkit-sticky; /* for safari */
+    top: 0;
+}
+
+/* if sticky doesn't work for you:
+https://www.designcise.com/web/tutorial/how-to-fix-issues-with-css-position-sticky-not-working
+*/
+
+#jellyfish-photo {
+    position: relative;
+    /* will notice that it's not perfect */
+    /* alignment is difficult without divs */
+    left: 50%;
+    width: 300px;
+}
+
+#jellyfish-header {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1000;
+}
+
+#big-jellyfish-text {
+    text-align: center;
+    font-size: 90px;
+    border-width: 0px;
+    color: white;
+    position: relative;
+    top: 40px;
+}

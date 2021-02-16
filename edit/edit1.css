@@ -1,0 +1,34 @@
+#css-header { 
+    font-style:italic;
+   color: rgb(147,85,161);
+
+   background-image: url ("https://www.thoughtco.com/thmb/AvVf2u-2pJZC0aQD-kUlv2ESZD4=/5120x2880/smart/filters:no_upscale()/atlantic-bottlenose-dolphin--jumping-high-during-a-dolphin-training-demonstration-154724035-59ce93949abed50011352530.jpg")
+   border-color; rgb (209, 40, 199);
+   border-width: 4px;
+   border-style: double; 
+   text-align: left; 
+   text-decoration: underline; 
+   font-weight: bold;
+   font-style: italic;
+   .blue-underline 
+   color blue; 
+   text-decoration: underline; 
+
+}
+p{ color: green;}
+
+/*
+NOTES
+
+- line 2: make sure the indentation matches everything else
+- line 5: no space between url and parenthases. remember the 
+semicolon at the end!
+- line 6: the symbol after border color should be a colon, not a semicolon.
+no space between rgb and parenthases
+- line 12: make sure to close the #css-header block with an ending bracket
+- line 13: add a starting bracket after .blue-underline to 
+start this CSS block
+- line 14: don't forget the : after color
+- line 18: technically this code is correct, but for better readability,
+you can expand/indent it
+*/
