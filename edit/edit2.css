@@ -1,0 +1,46 @@
+.static {display: static;
+
+   
+    body {
+    height: 1024px;
+    }
+   
+    .static {
+        position: static;
+        top: 10px;
+    }
+   
+    .relative {
+    position: static;
+    top: 30px;
+    left:
+    }
+   
+    .fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    }
+   
+    #gummybear-picture
+    position: absolute;
+    top: 0px
+    left: 0px;
+    }
+
+/*
+NOTES
+I think the major reason why your css code is not functioning is because
+in line 1-2, you have forgotten to close the .static class.
+
+As for the rest, make sure you try out the indentation. Usually, the
+id/class/element name is not indented, but everything within the curly
+brackets gets indented.
+
+if you would like to use the position classes, don't forget to reference
+the classes in the HTML file. for instance, this would be in the HTML
+file: <img class="relative" src="blahblah.jpg">
+
+- line 16, 27: don't forget to add the semicolon at the end!
+- line 25: remember the first curly bracket
+*/

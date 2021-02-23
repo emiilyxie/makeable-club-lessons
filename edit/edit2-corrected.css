@@ -1,0 +1,31 @@
+body {
+    height: 1024px;
+}
+   
+.static {
+    position: static;
+    top: 10px;
+}
+
+.relative {
+    position: static;
+    top: 30px;
+    left: 30px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#gummybear-picture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* i have added width to adjust the size of the image. */
+    z-index: -10;
+    /* i have also added z-index so the image does not block other elements
+    you can read more about z-index here: https://www.w3schools.com/cssref/pr_pos_z-index.asp*/
+}
