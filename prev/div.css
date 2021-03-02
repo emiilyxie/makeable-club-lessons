@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+#header {
+    position: relative;
+    height: 300px;
+    background-color: mediumturquoise;
+}
+
+#header p {
+    color: papayawhip;
+    text-align: center;
+    position: relative;
+    font-size: 72px;
+    top: 130px;
+}
+
+#overview {
+    position: relative;
+    height: 50px;
+    background-color: papayawhip;
+}
+
+#overview p {
+    color: slategrey;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#imgs {
+    margin: 30px;
+}
+
+#imgs p {
+    text-align: center;
+    font-size: 40px;
+    color: slategrey;
+    margin-bottom: 30px;
+}
+
+#imgs img {
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
