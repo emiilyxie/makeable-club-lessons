@@ -1,0 +1,16 @@
+#css-header {
+    font-style:italic;
+    color: rgb(155, 204, 169);
+    background-image:url(https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555301685/shape/mentalfloss/dog-listening-primary.png);
+    border-color: rgb(155, 204, 169);
+    border-width: 4px;
+    border-style: double;
+    text-align: left;
+    text-decoration: underline;
+}
+
+/* i have added this in the CSS to define
+what elements with the class "red-text" will look like */
+.red-text {
+    color: red;
+}

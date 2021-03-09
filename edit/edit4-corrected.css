@@ -1,0 +1,28 @@
+#header {
+    position: relative;
+    height: 300px;
+    background-color:blueviolet;
+}
+
+#header p {
+    text-align: center;
+    font-size: 72px;
+    color:coral;
+    position: relative;
+    top:120px;
+    margin: 0px;
+}
+#gallery { 
+    padding: 30px;
+    background-color:lightseagreen;
+}
+#gallery p {
+    color:lightpink;
+    font-size: 48px;
+    text-align: center;
+}
+#gallery img{ 
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

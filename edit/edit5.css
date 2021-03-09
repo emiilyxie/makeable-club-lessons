@@ -1,0 +1,35 @@
+p {
+    margin: 0px;
+}
+
+#header {
+    position: relative;
+    height: 300px;
+    background-color: paleturquoise ;
+
+}
+
+#header p {
+    text-align: center;
+    font-size: 72px;
+    color: papayawhip;
+    position: relative;
+    top: 120px;
+}
+   
+#gallery {
+    padding: 30px;
+    background-color: lavender;
+}
+
+#gallery p {
+    color: lightslategray;
+    font-size: 48px;
+    text-align: center;
+}
+
+#gallery img {
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,43 @@
+#header {
+    position: relative;
+    height: 300px;
+    background-color:blueviolet;
+}
+#header p {
+
+text-align: center;
+font-size: 72px;
+color:coral;
+position: relative;
+top:120px;
+}
+#gallery { 
+padding: 30px;
+background-color:lightseagreen;
+}
+#gallery p {
+color:lightpink 
+font-size: 48px;
+text-align: center;
+}
+#gallery img{ 
+height: 100px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+/*
+
+NOTES
+
+line 19: the semicolon!!! haha honestly missing semicolons are the worst sometimes
+
+line 6: this isn't a mistake, but if you add in margin: 0px; 
+    inside this class, it will remove this awkward white space in the header.
+    i have put it in my corrected code; you can delete it and re-type it to see
+    the difference. this happens because p has predefined margins that mess with
+    the size and positioning of elements.
+
+in general: you can indent each property within each defined css block, kind of like
+    what you have in lines 1-5
+*/

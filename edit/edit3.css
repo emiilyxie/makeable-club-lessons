@@ -1,0 +1,24 @@
+#css-header
+<head>
+
+<Title>My first webpage :)</title>
+
+<link rel="stylesheet" href="style.css">
+
+<h2 id="css-header">CSS Demonstration</h2>
+
+#css-header
+Blue text 
+<div class="blue"></div>color: blue; {}
+
+<head>
+
+/*
+
+NOTES
+
+most of my notes were in the HTML file & also a tiny explanation between HTML/CSS.
+in essence, most of the code in this file is actually better suited to be in the 
+HTML file
+
+*/
