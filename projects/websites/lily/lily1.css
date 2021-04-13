@@ -1,0 +1,29 @@
+#css-header {
+  font-style: italic;
+  color: white;
+  background-image: url(https://miro.medium.com/max/2821/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg);
+  border-color: purple;
+  text-align: center;
+  font-weight: bold;
+  font-family: Courier New;
+ 
+}
+
+
+
+
+ 
+
+ 
+
+#gallery {
+ position: relative;
+ 
+ 
+}
+
+.green-underline {
+  color: purple;
+  font-weight: bold;
+  font-family: Sans-Serif;
+}

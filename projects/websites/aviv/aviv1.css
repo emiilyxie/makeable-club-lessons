@@ -1,0 +1,107 @@
+#about-me{
+
+  font-family: 'Indie Flower', cursive;
+  
+  font-weight: 600;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  
+  background-repeat: no-repeat;
+  border-width: 4px;
+  border-style: solid;
+  border-color:rgb(83, 65, 4) ;
+  background-color: rgb(221, 201, 159);
+  color: rgb(83, 53, 6)
+  }
+ .ballet{
+ font-style: normal;
+ font-size: 25px;
+ font-weight: 600;
+ background-color: tan;
+ font-family: 'Rajdhani', sans-serif;
+ color: rgb(70, 35, 11);
+ }
+ .to-bake{
+     font-style: normal;
+     font-size: 25px;
+     font-weight: 600;
+     background-color: tan;
+     color: rgb(70, 35, 11);
+     font-family: 'Rajdhani', sans-serif;
+ }
+ .paint{
+     font-style: normal;
+     font-size: 25px;
+     font-weight: 600;
+     background-color: tan;
+     color: rgb(70, 35, 11);
+     font-family: 'Rajdhani', sans-serif;
+ }
+ .to-read{
+     font-style: normal;
+     font-size: 25px;
+     font-weight: 600;
+     background-color: tan;
+     color: rgb(70, 35, 11);
+     font-family: 'Rajdhani', sans-serif;
+ }
+ 
+ .harry-potter{
+     width: 350px;
+     height: 450px;
+    position:relative;
+ }
+ .Ballet{
+ width: 350px;
+ height: 450px;
+ position: relative;
+ left : 60px;
+ font-family: 'Rajdhani', sans-serif;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ #css-header {
+     font-style: normal;
+     font-size: 40px;
+     text-decoration: underline;
+     margin: 6px;
+     text-align: center;
+     
+     color: rgb(84, 19, 90);
+     background-repeat: no-repeat;
+     background-color: rgb(190, 100, 181);
+     border-width: 4px;
+     border-style: solid;
+     font-family: 'Indie Flower', cursive;
+ }
+ .red-text{
+     font-style: normal;
+     font-family:'Rajdhani', sans-serif;
+     font-weight: 600;
+     font-size: 25px;
+     background-color: rgb(224, 192, 231);
+     color:rgb(71, 26, 129)
+ 
+ 
+ }
+ .blue-text{
+    font-style: normal;
+     font-family: 'Rajdhani', sans-serif;
+     font-size: 25px;
+     font-weight: 600;
+     background-color: rgb(224, 192, 231);
+     color:rgb(71, 26, 129)   
+ }
+ .blue-underline{
+     font-style: normal;
+     font-size: 25px;
+     font-weight: 600;
+     background-color: rgb(224, 192, 231);
+     color:rgb(71, 26, 129);
+     font-family: 'Rajdhani', sans-serif;
+ }

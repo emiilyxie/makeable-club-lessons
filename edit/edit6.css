@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header {
+  position: relative;
+  background-color: rgb(248, 144, 47);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.main-header p {
+  text-align: center;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  font-family:'Flavors', cursive;
+}
+
+.sub-text { 
+  text-align: center;
+  font-size: 45px;
+  color:rgb(238, 95, 0);
+  position: relative;
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image { 
+  display: block;
+  align-content: center;
+  margin-bottom: 50px;
+  position: relative;
+}

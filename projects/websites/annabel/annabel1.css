@@ -1,0 +1,44 @@
+p{
+  margin: 0px;
+}
+
+#header {
+  position: relative;
+  height: 200px;
+  background-color: paleturquoise ;
+
+}
+
+#header p {
+  text-align: center;
+  font-size: 80px;
+  color: cornflowerblue;
+  position: relative;
+  top: 40px;
+  font-family:Shadows Into Light;
+}
+
+#header {
+  text-align:center;
+  font-size:10px;
+  font-family:Shadows Into Light;
+}
+ 
+#gallery {
+  padding: 10px;
+  background-color: lavender;
+}
+
+#gallery p {
+  color:gray;
+  font-size: 28px;
+  text-align: left;
+}
+
+#gallery img {
+  height: 200px;
+  margin-top: 30px;
+  margin-right: 10px;
+ 
+
+}

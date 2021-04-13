@@ -1,0 +1,50 @@
+<doctype html>
+    My First Webpage :)
+
+    <word>       </word>
+    <head>
+
+        <title> My first webpage :) </title>
+        <body>
+
+            <h1> Hello!! Welcome to my Website About Dogs!</h1>
+            <H2> Dog facts</H2>
+            <img src="C:\Users\emma\Downloads\golden.jpg">
+            <p></p>
+            <p>1. They have a very good sense of smell</p> 
+            <p>2. They are super adorable!!</p>
+            <p>3. They can run really fast 
+            <p>4. A dog's noseprint is unique much like a human's fingerprint</p>
+
+            </p>
+
+        </body>
+
+        <body> 
+
+            <h2 id="css-header">CSS Demonstration</h2>
+
+            #css-header
+            Color: rgb(155, 204, 169)
+
+            <p class="red-text"> Sample Text Hello</p>
+            <h3> class="red text> This is header </h3>
+            <link rel="stylesheet" href="style.css">
+           
+            #css-header {
+                
+            font-style: italic;
+        
+        }
+        <h2 id="css-header"
+        font-style:italic;
+        color: rgb(155, 204, 169)
+        background-image:url(https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555301685/shape/mentalfloss/dog-listening-primary.png)
+        border-color:rgb(155, 204, 169)
+        border-width: 4px;
+        border-style: double;
+        text-align: left;
+        text decoration: underline
+
+
+        </body>
