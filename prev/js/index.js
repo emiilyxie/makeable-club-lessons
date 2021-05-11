@@ -73,6 +73,7 @@ for(let j = 0; j > 10; j++) {
 
 /* ************** 4/26/21 ***************** */
 
+/*
 // challenge exercise answer
 for(let i = 1; i <= 12; i++) {
   for(let j = 1; j <= 12; j++) {
@@ -127,3 +128,24 @@ alert("This is an alert");
 prompt(
   "What is your favorite color"
 );
+*/
+
+/* ************** 5/10/21 ***************** */
+
+// selecting objects with Document
+document.getElementById("sample-paragraph"); // but literally nothing is happening rn tho
+
+// some background color fun
+let sampleParagraph = document.getElementById("sample-paragraph");
+let body = document.getElementsByTagName("body")[0];
+
+sampleParagraph.onclick = function() {
+  let textContent = "";
+  textContent = textContent + Math.random();
+  sampleParagraph.innerHTML = textContent;
+
+  let randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  body.style.backgroundColor = randomColor;
+
+  console.log("background changed to " + randomColor);
+}

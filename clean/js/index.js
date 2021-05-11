@@ -1,45 +1,13 @@
-/*
-for(let i = 1; i <= 12; i++) {
-  for(let j = 1; j <= 12; j++) {
-    console.log(i * j);
-  }
-}
-*/
+let sampleParagraph = document.getElementById("sample-paragraph");
+let body = document.getElementsByTagName("body")[0];
 
-/*
-let timeOfDay = "daytime";
+sampleParagraph.onclick = function() {
+  let textContent = "";
+  textContent = Math.random();
+  sampleParagraph.innerHTML = textContent;
 
-if(timeOfDay == "daytime") {
-  console.log("it's daytime");
-}
-else {
-  console.log("it's not daytime :(");
-}
-*/
-
-let shoppingList = ["apples", "bananas", "sandwiches"];
-let haveDog = false;
-
-if(haveDog) {
-  shoppingList[3] = "dogTreats";
-}
-else {
-  shoppingList[3] = "popsicles";
+  let randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  body.style.backgroundColor = randomColor;
 }
 
-for(let i = 0; i < shoppingList.length; i++) {
-  console.log(shoppingList[i]);
-}
 
-let instrument = {
-  "type": "flute",
-  "brand": "Yamaha",
-  "created": 1987
-};
-console.log(instrument["type"]);
-
-//alert("YOU HAVE BEEN HACKED!!!");
-//let favFood = prompt("Type your favorite food");
-//console.log(favFood);
-let result = confirm("Is sushi good?");
-console.log(result);
